@@ -1,0 +1,110 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+body {
+  /* max-width: 1920px; */
+}
+header {
+  padding: 2.5rem 0;
+  padding-right: 4rem;
+  max-width: 1920px;
+  max-height: 151.2px;
+  background: #f1c40f;
+  box-shadow: inset 0px -1px 0px #e7e7e7;
+}
+.primary-nav {
+  flex-wrap: wrap;
+  flex: 1 1 30rem;
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2.621rem;
+}
+.primary-nav a {
+  color: #323232;
+  font-size: 1.229rem;
+  text-decoration: none;
+  margin: 1rem;
+}
+sup {
+  background-color: red;
+  color: white;
+  font-size: 1.08rem;
+}
+a.red {
+  color: #ff0000;
+}
+.secondary-nav {
+  margin-left: 45%;
+  max-width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondary-nav .list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list ul {
+  width: 15rem;
+}
+input {
+  width: 300px;
+  min-height: 35px;
+  border: 1px solid #484848;
+  box-shadow: 0px 0px 3px #9797a5;
+  border-radius: 5px;
+}
+.search-rel {
+  position: relative;
+}
+.list .search-icon {
+  position: absolute;
+  left: 11px;
+  top: calc(50% - 25px / 2);
+}
+.discount {
+  background-color: #1c1c1c;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+}
+.discount button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.discount span {
+  padding: 0.907rem;
+  color: #fff;
+  font-family: "Inter";
+  max-width: 56rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 10.43px;
+  left: 680px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hero img {
+  width: 100%;
+}
