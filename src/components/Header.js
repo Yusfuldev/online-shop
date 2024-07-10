@@ -47,10 +47,10 @@ const Header = () => {
         </div>
         <ul className="primary-nav">
           <li>
-            <Link to="./Header">BLOUSES</Link>
+            <Link to="./Categories">BLOUSES</Link>
           </li>
           <li>
-            <Link to="./Header">
+            <Link to="./Launched">
               DRESSES<sup>NEW</sup>
             </Link>
           </li>
@@ -58,10 +58,10 @@ const Header = () => {
             <Link to="./Header">MEN'S WEAR</Link>
           </li>
           <li>
-            <Link to="./Header">WOMEN'S WEAR</Link>
+            <Link to="./Women">WOMEN'S WEAR</Link>
           </li>
           <li>
-            <Link to="./Header">ACCESSORIES</Link>
+            <Link to="./Categories">ACCESSORIES</Link>
           </li>
           <li>
             <Link to="./Header">HOME & LIVING</Link>
