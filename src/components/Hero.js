@@ -6,13 +6,13 @@ import right from "../assets/right.png";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="discount">
+      <div className="discunt">
         <span>
-          <button>
+          <button className="btn">
             <img src={left} alt="" />
           </button>
           <p>Buy 5 & Get FLAT 15% OFF | Use code HNG11-24</p>
-          <button>
+          <button className="btn">
             <img src={right} alt="" />
           </button>
         </span>
